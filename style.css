@@ -1,0 +1,80 @@
+footer {
+    margin-top: 3em;
+    font-size: 0.9em;
+    border-radius: 5px;
+}
+
+div {
+    justify-content: center;
+    text-align: center;
+}
+
+.menu {
+    margin-bottom: 0.5em;
+}
+
+img {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.google {
+    box-shadow: none;
+}
+
+img,
+.jumbotron {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.jumbotron {
+    box-shadow: 5px 5px 20px white;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+
+.legende {
+    padding-top: 0.4em;
+}
+
+.drpbtn a {
+    background: url(img/qui.ico) no-repeat top-left;
+}
+
+/*li {
+    list-style-type: none;
+}*/
+
+header {
+    text-align: center;
+}
+.test:hover {
+    color: black;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.vert{
+    background-image: url(/img/green_checkmark.svg);
+}
+
+.orange{
+    list-style-image: url(orange_checkmark.svg);
+}
+
+#menuBas li{
+    list-style: none;
+}
+
+#hero{
+    background-image: url(hero-img.jpg);
+    background-size: cover;
+    width: 1600px; 
+    height: 857px;
+}

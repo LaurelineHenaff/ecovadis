@@ -1,0 +1,96 @@
+nav {
+    width: 100%;
+    display: flex;
+}
+nav li {
+    list-style-type: none;
+    padding: 0 40px;    
+}
+
+nav a,
+.sousMenuDeroulant {
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    
+}
+
+nav li a:hover,
+.menuDeroulant:hover .sousMenuDeroulant {
+    background-color: none;
+}
+
+
+nav li.menuDeroulant {
+    display: inline-block;
+}
+
+.contenuMenuDeroulant {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    justify-content: center;
+}
+
+.contenuMenuDeroulant a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+
+}
+
+.contenuMenuDeroulant a:hover {
+    background-color: lightgray;
+    animation-duration: 0s;
+    color: #41509E;
+}
+
+.menuDeroulant:hover .contenuMenuDeroulant {
+    display: block;
+}
+
+
+.sousMenuDeroulant,
+.sousMenuDeroulant:hover {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.timenu a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.timenu a {
+    color: black;
+}
+
+.timenu {
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.grantimenu {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.titimenu {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+.btn {
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 0;
+    background-color: #00c43c;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+    display: flex;
+    list-style-type: none;
+    text-align: left;
+    justify-content: space-between;
+}
